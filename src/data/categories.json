@@ -1,0 +1,114 @@
+[
+  {
+    "slug": "resenas-cerraduras-digitales",
+    "name": "Reseñas de Cerraduras Digitales",
+    "short": "Reseñas",
+    "icon": "lock",
+    "isTransactional": true,
+    "description": "Análisis completos por modelo exacto de TEEHO, eufy Security, Schlage y Aqara en Amazon EE. UU. con medidas compatibles, acceso, códigos de huéspedes y Wi-Fi."
+  },
+  {
+    "slug": "comparativas-cerraduras-digitales",
+    "name": "Comparativas TEEHO vs eufy y Rivales",
+    "short": "Comparativas",
+    "icon": "scale",
+    "isTransactional": true,
+    "description": "Duelos directos modelo contra modelo comparando precio, huella, código PIN, control desde el celular, códigos temporales y compatibilidad con puertas."
+  },
+  {
+    "slug": "cerraduras-para-airbnb-y-alquiler-temporal",
+    "name": "Cerraduras para Airbnb y Alquiler",
+    "short": "Airbnb",
+    "icon": "key",
+    "isTransactional": true,
+    "description": "Los mejores modelos para auto check-in sin entregar llaves, gestión de códigos por fechas de reserva, coliving y casas de playa o montaña."
+  },
+  {
+    "slug": "cerraduras-para-casas-y-departamentos",
+    "name": "Casas, Departamentos y Materiales",
+    "short": "Casas y Depas",
+    "icon": "home",
+    "isTransactional": true,
+    "description": "Cerraduras recomendadas para puertas de madera, metal o aluminio, manillones principales y sistemas retrofit cuando el edificio no deja cambiar el frente."
+  },
+  {
+    "slug": "cerraduras-por-precio-y-forma-de-acceso",
+    "name": "Por Precio y Forma de Acceso",
+    "short": "Precio y Acceso",
+    "icon": "tag",
+    "isTransactional": true,
+    "description": "Rankings en Amazon EE. UU. por rango de presupuesto (<$45 a $280) y método: huella biométrica, teclado PIN, celular, Apple HomeKey y cámara 2K."
+  },
+  {
+    "slug": "puentes-wifi-baterias-y-accesorios",
+    "name": "Puentes Wi-Fi, Pilas y Accesorios",
+    "short": "Accesorios",
+    "icon": "bridge",
+    "isTransactional": true,
+    "description": "Gateways Wi-Fi G2, puentes eufy y Aqara, baterías recargables, pilas AA de litio, cajas guardallaves de respaldo, placas de refuerzo y kits de brocas."
+  },
+  {
+    "slug": "como-medir-tu-puerta-y-compatibilidad",
+    "name": "Cómo Medir tu Puerta Antes de Comprar",
+    "short": "Medidas",
+    "icon": "ruler",
+    "isTransactional": false,
+    "description": "Guías paso a paso para comprobar backset (60/70 mm), grosor (35–54 mm), orificio de 54 mm, apertura derecha/izquierda y cerrojo deadbolt vs mortise."
+  },
+  {
+    "slug": "codigos-temporales-y-gestion-de-huespedes",
+    "name": "Códigos Temporales para Huéspedes",
+    "short": "Huéspedes",
+    "icon": "calendar",
+    "isTransactional": false,
+    "description": "Cómo crear PIN de un solo uso offline, códigos programados por día y hora para Airbnb, códigos anti-espía y registros de limpieza sin llaves."
+  },
+  {
+    "slug": "control-desde-el-celular-wifi-y-puentes",
+    "name": "Control desde el Celular, Wi-Fi y Bridges",
+    "short": "Wi-Fi y Celular",
+    "icon": "wifi",
+    "isTransactional": false,
+    "description": "Qué accesorios requiere cada cerradura para funcionar a distancia: Bluetooth local, Wi-Fi 2.4 GHz integrado, puente enchufable, Matter y Thread."
+  },
+  {
+    "slug": "formas-de-acceso-codigo-huella-y-llave",
+    "name": "Código, Huella Digital y Llave Física",
+    "short": "Formas de Acceso",
+    "icon": "fingerprint",
+    "isTransactional": false,
+    "description": "Cómo funcionan los sensores biométricos 3D, teclados físicos vs táctiles bajo el sol, desbloqueo automático por cercanía y llaves de respaldo."
+  },
+  {
+    "slug": "instalacion-paso-a-paso-y-ajustes-de-puerta",
+    "name": "Instalación y Ajustes de Puerta",
+    "short": "Instalación",
+    "icon": "wrench",
+    "isTransactional": false,
+    "description": "Montaje seguro con destornillador manual, ajuste del pestillo 60/70 mm, calibración automática izquierda/derecha y ajuste del recibidor en el marco."
+  },
+  {
+    "slug": "baterias-autonomia-y-emergencias-sin-energia",
+    "name": "Baterías, Autonomía y Puerto USB-C",
+    "short": "Baterías",
+    "icon": "battery",
+    "isTransactional": false,
+    "description": "Cuántos meses duran 4 u 8 pilas AA alcalinas frente a litio o NiMH, alertas de batería baja y cómo abrir por USB-C con un powerbank si se descarga."
+  },
+  {
+    "slug": "seguridad-fisica-certificaciones-y-clima",
+    "name": "Seguridad, Normas BHMA y Clima",
+    "short": "Seguridad",
+    "icon": "shield",
+    "isTransactional": false,
+    "description": "Grados ANSI/BHMA 1, 2 y 3, resistencia a lluvia y sol IP54/IP65, privacidad biométrica local, bloqueo anti-fuerza bruta y modo privacidad interior."
+  },
+  {
+    "slug": "solucion-de-problemas-y-compra-en-amazon",
+    "name": "Solución de Fallas y Compra en Amazon",
+    "short": "Fallas y Amazon",
+    "icon": "help",
+    "isTransactional": false,
+    "description": "Cómo resolver atascos Lock Jammed, pitidos de error, factory reset, elección de acabados en Amazon EE. UU. y envíos internacionales sin sorpresas."
+  }
+]
