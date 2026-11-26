@@ -17,8 +17,6 @@ export interface AmazonProductRecommendation {
   title: string;
   subtitle: string;
   features: string[];
-  rating: string;
-  reviewsCount: string;
   categoryType: AmazonCategoryType;
   specs: {
     priceRange: string;
@@ -93,11 +91,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Bloqueo automático configurable (10 a 99 segundos), modo vacaciones y protección climática IP54",
       "Puerto de emergencia para alimentarla desde afuera con un cargador portátil si se agotan las pilas",
     ],
-    rating: "4.5",
-    reviewsCount: "26.400+",
     categoryType: "fingerprint-lock",
     specs: {
-      priceRange: "US$45 – US$59",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm (2-3/8\" o 2-3/4\") · Grosor 35–50 mm · Orificio 54 mm",
       accessMethods: "Huella dactilar 3D + Código PIN anti-espía + 2 llaves físicas",
       guestCodes: "Sí: códigos de 1 solo uso (se borran tras abrir) y códigos de usuario",
@@ -110,7 +106,7 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
 
   TEEHO_TE001: {
     id: "teeho-te001-keypad",
-    badge: "💵 #1 Más Económica Solo Código (< US$45 en Amazon)",
+    badge: "💵 #1 Más Económica Solo Código",
     title:
       "TEEHO TE001 Keyless Entry Door Lock — Teclado Retroiluminado + Auto-Lock",
     subtitle:
@@ -120,11 +116,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Teclado físico con retroiluminación nocturna y código virtual anti-espía",
       "Autonomía de hasta 1 año con solo 4 pilas alcalinas AA (aviso de batería baja)",
     ],
-    rating: "4.6",
-    reviewsCount: "41.800+",
     categoryType: "keypad-lock",
     specs: {
-      priceRange: "US$32 – US$44",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–50 mm · Orificio 54 mm (2-1/8\")",
       accessMethods: "Código PIN físico + 2 llaves mecánicas de respaldo",
       guestCodes: "Sí: PIN de un solo uso offline (no permite fechas desde otra ciudad)",
@@ -147,11 +141,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Lector biométrico de 0.3 s + códigos temporales de 1 uso + bloqueo con 1 toque",
       "Acabados Matte Black o Satin Nickel resistentes al clima IP54",
     ],
-    rating: "4.6",
-    reviewsCount: "8.900+",
     categoryType: "fingerprint-lock",
     specs: {
-      priceRange: "US$79 – US$99",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "2 orificios estándar 54 mm · Backset 60/70 mm · Grosor 35–50 mm",
       accessMethods: "Huella digital + Código PIN + 2 llaves + manija inferior",
       guestCodes: "Sí: códigos de 1 uso en teclado (sin gestión por internet)",
@@ -174,11 +166,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Genera códigos por rango de fechas, permanentes, cíclicos o de un solo uso",
       "Requiere el Puente Gateway Wi-Fi G2 a 3–5 metros en red 2.4 GHz para uso a distancia",
     ],
-    rating: "4.5",
-    reviewsCount: "5.600+",
     categoryType: "wifi-lock",
     specs: {
-      priceRange: "US$65 – US$95 (+US$25 Gateway G2)",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–50 mm · Orificio 54 mm",
       accessMethods: "Huella digital + Código PIN + App Bluetooth/Wi-Fi + Llave",
       guestCodes: "Sí: por fechas y horas (con Gateway G2 para crearlos a distancia)",
@@ -201,11 +191,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Crea, edita y borra códigos temporales programados por fecha y hora exacta para huéspedes desde la app eufy Security",
       "Almacenamiento local de huellas con cifrado y hasta 8 meses de autonomía con 8 pilas AA + puerto USB-C",
     ],
-    rating: "4.5",
-    reviewsCount: "9.400+",
     categoryType: "wifi-lock",
     specs: {
-      priceRange: "US$119 – US$149",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–55 mm · Orificio 54 mm (o 38 mm)",
       accessMethods: "Huella 0.3s + Código PIN + App Celular Wi-Fi + Alexa/Google + Llave",
       guestCodes: "Sí (Avanzado): códigos con fecha/hora de inicio y expiración remota",
@@ -228,11 +216,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Teclado táctil elegante con bloqueo automático por sensor o temporizador",
       "Ideal para anfitriones de Airbnb que prefieren dar acceso 100 % por PIN programado",
     ],
-    rating: "4.4",
-    reviewsCount: "6.800+",
     categoryType: "wifi-lock",
     specs: {
-      priceRange: "US$89 – US$109",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–55 mm · Orificio 54 mm",
       accessMethods: "Código PIN táctil + App Celular Wi-Fi + 2 Llaves físicas",
       guestCodes: "Sí: hasta 100 códigos con calendario por fecha y hora en la app",
@@ -255,11 +241,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Batería recargable de 10,000 mAh extraíble (no gasta pilas desechables AA)",
       "Detección inteligente de personas y paquetes + audio bidireccional desde el celular",
     ],
-    rating: "4.6",
-    reviewsCount: "4.900+",
     categoryType: "video-lock",
     specs: {
-      priceRange: "US$199 – US$279",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–55 mm · Orificio 54 mm (revisar reja exterior)",
       accessMethods: "Huella dactilar + Código PIN + App con Video 2K + Llave",
       guestCodes: "Sí: códigos temporales con horario desde cualquier país",
@@ -282,11 +266,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Sensor de huella ergonómico integrado justo en el pulgar al girar la manija",
       "Wi-Fi integrado para apertura remota, auto-lock y códigos de invitados",
     ],
-    rating: "4.5",
-    reviewsCount: "3.100+",
     categoryType: "wifi-lock",
     specs: {
-      priceRange: "US$119 – US$159",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "1 solo orificio 54 mm · Backset 60/70 mm · Grosor 35–55 mm",
       accessMethods: "Huella en manija + Código PIN + App Wi-Fi + Llave",
       guestCodes: "Sí: programación por fechas/horas en la app eufy",
@@ -309,11 +291,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Integración oficial con Airbnb y Guesty: el huésped recibe los últimos 4 dígitos de su teléfono",
       "Wi-Fi integrado directo con alarma de manipulación integrada en el teclado",
     ],
-    rating: "4.7",
-    reviewsCount: "16.200+",
     categoryType: "wifi-lock",
     specs: {
-      priceRange: "US$249 – US$319",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–45 mm (1-3/8\" a 1-3/4\") · Orificio 54 mm",
       accessMethods: "Código PIN + App Schlage Home / Airbnb + Llave física",
       guestCodes: "Sí (Automático): códigos creados y eliminados según check-in/check-out",
@@ -336,11 +316,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Compatible con cilindros europeos, perfil suizo, multipunto y cerrojos americanos",
       "Con el Hub Mini/Matter añade apertura desde el celular y teclado numérico/huella exterior adhesivo",
     ],
-    rating: "4.4",
-    reviewsCount: "7.500+",
     categoryType: "retrofit-lock",
     specs: {
-      priceRange: "US$119 – US$179 (Combo Hub + Teclado)",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Universal por dentro: sobre cilindro existente sin cambiar frente exterior",
       accessMethods: "App Bluetooth/Wi-Fi + Tu llave actual (+ Huella/PIN con Keypad Touch)",
       guestCodes: "Sí: usando el SwitchBot Keypad Touch + Hub Mini Wi-Fi",
@@ -363,11 +341,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Puerto USB-C de emergencia oculto en el panel frontal y cuerpo metálico IP65",
       "Funciona local por Bluetooth/HomeKey; requiere Hub Aqara M2/M3 para Wi-Fi remoto",
     ],
-    rating: "4.5",
-    reviewsCount: "3.400+",
     categoryType: "fingerprint-lock",
     specs: {
-      priceRange: "US$159 – US$189 (+Hub M2/M3 para remoto)",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–55 mm · Orificio 54 mm",
       accessMethods: "Apple HomeKey (NFC) + Huella + Código PIN + App + Llave",
       guestCodes: "Sí: códigos offline temporales y gestión remota vía Hub Aqara",
@@ -390,11 +366,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Permite crear, modificar y eliminar códigos de huéspedes Airbnb en tiempo real",
       "Envía notificaciones push instantáneas de cada entrada al celular",
     ],
-    rating: "4.5",
-    reviewsCount: "11.300+",
     categoryType: "accessory-bridge",
     specs: {
-      priceRange: "US$22 – US$39",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "No va en la puerta: se enchufa a la corriente a ≤ 5 metros",
       accessMethods: "Habilita apertura remota por App, Alexa y Google Assistant",
       guestCodes: "Habilita gestión remota en vivo de códigos temporales y registros",
@@ -417,11 +391,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Funcionan desde -40 °C hasta +60 °C en puertas exteriores expuestas al sol o frío",
       "Caja de llaves metálica con combinación para guardar una copia física oculta de respaldo",
     ],
-    rating: "4.8",
-    reviewsCount: "64.000+",
     categoryType: "accessory-bridge",
     specs: {
-      priceRange: "US$18 – US$34",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Compatible con el 100 % de cerraduras TEEHO, eufy C210/C220 y Schlage",
       accessMethods: "Alimentación estable 4 u 8 pilas AA + respaldo físico de llave",
       guestCodes: "La caja de llaves ofrece código de respaldo si el huésped agota pilas",
@@ -446,11 +418,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Incluye sierra copa de 54 mm (2-1/8\") para el cuerpo y 25 mm (1\") para el pestillo del canto",
       "Compatible con puertas de madera maciza, huecas o metálicas estándar",
     ],
-    rating: "4.7",
-    reviewsCount: "9.800+",
     categoryType: "accessory-bridge",
     specs: {
-      priceRange: "US$24 – US$36",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Prepara puertas de 35–45 mm para el estándar americano (54 mm + 25 mm)",
       accessMethods: "Herramienta de adaptación previa antes de instalar tu cerradura",
       guestCodes: "Permite instalar cualquier cerradura digital con códigos o huella",
@@ -473,11 +443,9 @@ export const CATALOG: Record<string, AmazonProductRecommendation> = {
       "Sensor de puerta incluida en el paquete + Wi-Fi integrado sin puente",
       "Resistencia climática IP65 superior para puertas exteriores descubiertas",
     ],
-    rating: "4.4",
-    reviewsCount: "11.200+",
     categoryType: "wifi-lock",
     specs: {
-      priceRange: "US$149 – US$179",
+      priceRange: "Consultar precio y ofertas hoy en Amazon",
       doorCompat: "Backset 60/70 mm · Grosor 35–45 mm (hasta 50 mm) · Orificio 54 mm",
       accessMethods: "Huella + Código PIN + Wi-Fi/GPS Auto-Unlock + Alexa + Llave",
       guestCodes: "Sí: códigos programados por horas/días desde el celular",
@@ -716,7 +684,7 @@ export function getContextualAmazonProducts(
     return {
       sectionTitle: "Cerraduras Económicas de Alta Valoración en Amazon EE. UU.",
       sectionSubtitle:
-        "Máxima fiabilidad por debajo de US$60 sin cuotas mensuales:",
+        "Máxima fiabilidad por debajo de precio variable en Amazon sin cuotas mensuales:",
       products: [
         CATALOG.TEEHO_TE001,
         CATALOG.TEEHO_TE002,

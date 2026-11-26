@@ -146,16 +146,6 @@ export default function AmazonAffiliateBox({
         aria-label="Recomendación destacada de cerradura digital en Amazon"
         className="my-8 rounded-3xl border-2 border-[#0284c7]/35 bg-gradient-to-br from-[#f8fafc] via-white to-[#e0f2fe]/45 p-5 sm:p-7 shadow-[0_20px_50px_-28px_rgba(2,132,199,0.28)]"
       >
-        <div className="flex flex-wrap items-center justify-between gap-2 pb-4 border-b border-[var(--line)]">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-[#0b1320] px-3 py-1 text-xs font-extrabold text-[#fde68a]">
-              {primaryProduct.badge}
-            </span>
-            <span className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-2.5 py-0.5 text-xs font-bold text-amber-950">
-              ★★★★★ {primaryProduct.rating}/5 ({primaryProduct.reviewsCount}{" "}
-              opiniones)
-            </span>
-          </div>
           <RegionSwitch />
         </div>
 
@@ -265,23 +255,6 @@ export default function AmazonAffiliateBox({
           <RegionSwitch />
         </div>
 
-        <div className="mt-5 grid gap-4 md:grid-cols-2">
-          {contenders.map((item, idx) => {
-            const url = buildAmazonUrl(item, region);
-            return (
-              <div
-                key={item.id + idx}
-                className="flex flex-col justify-between rounded-2xl bg-white/95 p-5 text-slate-900 border border-sky-200"
-              >
-                <div>
-                  <div className="flex items-center justify-between gap-2">
-                    <span className="rounded-full bg-sky-100 px-2.5 py-0.5 text-[11px] font-extrabold text-sky-950">
-                      {idx === 0 ? "Opción #1 Destacada" : "Alternativa Directa"}
-                    </span>
-                    <span className="text-xs font-bold text-amber-700">
-                      ★ {item.rating}/5 ({item.reviewsCount})
-                    </span>
-                  </div>
                   <h4 className="mt-2.5 font-display text-lg font-extrabold leading-snug">
                     {item.title}
                   </h4>
@@ -290,7 +263,7 @@ export default function AmazonAffiliateBox({
                   </p>
                   <div className="mt-3 space-y-1 rounded-xl bg-slate-50 p-3 text-xs border border-slate-200">
                     <p>
-                      <strong>💵 Precio:</strong> {item.specs.priceRange}
+                      <strong>🛒 Disponibilidad:</strong> {item.specs.priceRange}
                     </p>
                     <p>
                       <strong>📏 Medidas:</strong> {item.specs.doorCompat}
@@ -354,22 +327,6 @@ export default function AmazonAffiliateBox({
                 {primaryProduct.specs.remoteControl}
               </p>
             </div>
-          </div>
-          <div className="shrink-0 sm:w-56">
-            <a
-              href={url}
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              onClick={() => onAmazonClick(primaryProduct, "inline")}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#d97706] to-[#b45309] px-4 py-3.5 font-display text-xs sm:text-sm font-extrabold text-white shadow-md hover:brightness-110 transition"
-            >
-              <span>Ver en {shortStore}</span>
-              <span aria-hidden>→</span>
-            </a>
-            <p className="mt-1 text-center text-[11px] text-slate-500">
-              ★ {primaryProduct.rating}/5 ({primaryProduct.reviewsCount}) ·{" "}
-              {primaryProduct.specs.priceRange}
-            </p>
           </div>
         </div>
       </aside>
@@ -462,28 +419,6 @@ export default function AmazonAffiliateBox({
         <RegionSwitch />
       </div>
 
-      <div className="mt-6 grid gap-5 lg:grid-cols-3">
-        {products.map((prod, idx) => {
-          const url = buildAmazonUrl(prod, region);
-          const roleLabels = [
-            "1. Cerradura Principal",
-            "2. Alternativa / Control Remoto",
-            "3. Accesorio / Respaldo",
-          ];
-          return (
-            <div
-              key={prod.id + idx}
-              className="flex flex-col justify-between rounded-2xl bg-white text-slate-900 p-5 shadow-lg border border-white/20"
-            >
-              <div>
-                <div className="flex items-center justify-between gap-2">
-                  <span className="rounded-full bg-[#0b1320] px-2.5 py-0.5 text-[10px] font-extrabold text-sky-300">
-                    {roleLabels[idx] || prod.badge}
-                  </span>
-                  <span className="text-xs font-extrabold text-amber-700">
-                    ★ {prod.rating} ({prod.reviewsCount})
-                  </span>
-                </div>
                 <h3 className="mt-3 font-display text-lg font-extrabold leading-snug text-slate-900">
                   {prod.title}
                 </h3>
@@ -493,7 +428,7 @@ export default function AmazonAffiliateBox({
 
                 <div className="mt-3 rounded-xl bg-slate-50 border border-slate-200 p-2.5 text-[11px] space-y-1">
                   <p>
-                    <strong className="text-amber-800">Precio:</strong>{" "}
+                    <strong className="text-amber-800">Disponibilidad:</strong>{" "}
                     {prod.specs.priceRange}
                   </p>
                   <p>

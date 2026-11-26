@@ -61,20 +61,16 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "TEEHO TE002 Fingerprint Door Lock — Huella 0.3s + 20 Códigos + PIN Temporal de 1 Uso (IP54)",
     subtitle:
       "Cerrojo tubular estándar (backset 60/70 mm, grosor 35–50 mm, orificio 54 mm). Crea códigos de 1 uso sin internet; solo apertura local sin app remota.",
-    rating: "4.5",
-    reviewsCount: "26.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("TEEHO TE002 Fingerprint Door Lock Keypad Deadbolt")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("TEEHO TE002 cerradura inteligente huella digital teclado")}&tag=${AMAZON_TAG_ES}`,
   },
   "teeho-te001-keypad": {
     id: "teeho-te001-keypad",
-    badge: "💵 Mejor Económica Solo Código (<$45 en Amazon EE. UU.)",
+    badge: "💵 Mejor Económica Solo Código",
     title:
       "TEEHO TE001 Keyless Entry Door Lock — Teclado Numérico Anti-Espía + Auto-Lock + 2 Llaves",
     subtitle:
       "Ideal para presupuesto ajustado, habitaciones o primera puerta. Backset 60/70 mm, grosor 35–50 mm, PIN temporal de un solo uso y 4 pilas AA.",
-    rating: "4.6",
-    reviewsCount: "41.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("TEEHO TE001 Keyless Entry Door Lock Electronic Keypad Deadbolt")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("TEEHO TE001 cerradura teclado numerico codigo")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -85,8 +81,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "TEEHO TE002H Front Door Lock Set — Cerrojo Biométrico de Huella + Manillón Inferior Combinado",
     subtitle:
       "Transforma la entrada de tu casa en una sola compra: incluye manija inferior, cerrojo biométrico TE002, backset 60/70 mm y puerto USB-C/emergencia.",
-    rating: "4.6",
-    reviewsCount: "8.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("TEEHO TE002H Front Door Lock Set Fingerprint Deadbolt Handle")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("TEEHO juego cerradura puerta principal huella manija")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -97,8 +91,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "TEEHO Smart Door Lock (App Bluetooth / Tuya) + Gateway Wi-Fi G2 Opcional para Control Remoto",
     subtitle:
       "Desbloqueo por huella, código y celular; añadiendo el puente Wi-Fi G2 en un enchufe cercano generas códigos por fechas para huéspedes a distancia.",
-    rating: "4.5",
-    reviewsCount: "5.600+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("TEEHO Smart Lock App Bluetooth WiFi Gateway G2")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("cerradura inteligente bluetooth tuya gateway wifi G2")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -109,8 +101,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "eufy Security Smart Lock C220 — Huella Biométrica + Teclado + Wi-Fi Integrado (Sin Suscripción)",
     subtitle:
       "Control total desde el celular en otra ciudad sin comprar puente extra: crea y borra códigos temporales por fechas/horas para Airbnb, backset 60/70 mm, 8 AA (8 meses).",
-    rating: "4.5",
-    reviewsCount: "9.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("eufy Security Smart Lock C220 Fingerprint Keyless Entry WiFi")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("eufy Security Smart Lock C220 cerradura WiFi huella")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -121,8 +111,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "eufy Security Smart Lock C210 — Teclado Táctil + Wi-Fi Directo + Códigos Temporales en App",
     subtitle:
       "La forma más accesible de tener control remoto real y gestión de códigos para huéspedes sin puente Wi-Fi externo ni cuotas mensuales.",
-    rating: "4.4",
-    reviewsCount: "6.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("eufy Security Smart Lock C210 Built-in WiFi Keyless Entry")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("eufy Security Smart Lock C210 cerradura WiFi teclado")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -133,8 +121,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "eufy Security Video Smart Lock E330 / S330 — Cámara 2K Gran Angular + Huella + Batería 10,000 mAh",
     subtitle:
       "Incluye el Chime Wi-Fi interior en la caja para control remoto sin compras extra y visión nocturna para ver quién llega a tu casa o Airbnb.",
-    rating: "4.6",
-    reviewsCount: "4.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("eufy Security Video Smart Lock E330 S330 Camera Fingerprint")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("eufy Video Smart Lock E330 cerradura con camara WiFi")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -145,8 +131,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Schlage Encode Smart Wi-Fi Deadbolt — Códigos Automáticos por Reserva Airbnb + Wi-Fi Integrado",
     subtitle:
       "Máxima resistencia ANSI/BHMA Grado 1 y sincronización automática con el calendario de reservas de Airbnb sin puentes externos.",
-    rating: "4.7",
-    reviewsCount: "16.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Schlage Encode Smart WiFi Deadbolt Keyless Entry")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Schlage Encode cerradura WiFi inteligente")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -157,8 +141,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "SwitchBot Lock Pro / August Wi-Fi Smart Lock — Instalación Interior Sin Cambiar tu Llave Actual",
     subtitle:
       "Se acopla por dentro sobre tu cilindro existente sin alterar la fachada del edificio; agrega Hub Mini para códigos y apertura desde el celular.",
-    rating: "4.4",
-    reviewsCount: "7.500+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("SwitchBot Lock Pro Smart Door Lock Retrofit Matter Hub")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("SwitchBot Lock Pro cerradura inteligente invisible sin cambiar bombin")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -169,8 +151,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Aqara Smart Lock U100 — Apple HomeKey + Huella + Teclado + Puerto USB-C de Emergencia",
     subtitle:
       "Abre acercando tu iPhone o Apple Watch. Funciona por Bluetooth/HomeKey localmente o con Aqara Hub M2/M3 para códigos y control a distancia.",
-    rating: "4.5",
-    reviewsCount: "3.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Aqara Smart Lock U100 Apple Home Key Fingerprint")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Aqara Smart Lock U100 cerradura inteligente Apple HomeKit")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -181,8 +161,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Puente Gateway Wi-Fi G2 / eufy Wi-Fi Bridge / Aqara Hub M3 — Conexión a Distancia en Tiempo Real",
     subtitle:
       "Se enchufa a 3–5 metros de la puerta en red 2.4 GHz para abrir remotamente, recibir alertas al instante y generar códigos temporales desde cualquier país.",
-    rating: "4.5",
-    reviewsCount: "11.300+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Smart Lock WiFi Gateway G2 Bridge Remote Control")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Gateway WiFi G2 puente cerradura inteligente bluetooth")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -193,8 +171,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Energizer Ultimate Lithium AA (Pack 8) + Caja de Llaves con Combinación para Emergencias y Airbnb",
     subtitle:
       "Evita fugas de ácido y falsas alarmas de batería baja en invierno o cerraduras Wi-Fi; respalda tus llaves físicas en alquileres temporales.",
-    rating: "4.8",
-    reviewsCount: "64.000+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Energizer Ultimate Lithium AA Batteries 8 Pack Master Lock Key Lockbox")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Energizer Ultimate Lithium AA pilas litio caja guardallaves")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -205,8 +181,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "DEWALT Door Lock Installation Kit (D180004) — Guía Autoalineante + Sierras Copa Bi-Metal para Madera/Metal",
     subtitle:
       "Indispensable si tu puerta aún no tiene los orificios estándar americanos de 54 mm (2-1/8\") y canto de 25 mm (1\") para instalar TEEHO o eufy.",
-    rating: "4.7",
-    reviewsCount: "9.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("DEWALT Door Lock Installation Kit D180004 Hole Saw")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("kit instalacion cerradura puerta sierra corona 54mm 25mm")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -634,7 +608,7 @@ Deno.serve(async (req: Request) => {
 Tu doble misión es:
 1. RESOLVER CON PRECISIÓN TÉCNICA CADA CONSULTA EN ESPAÑOL:
    - COMPARATIVA POR MARCA, PRECIO Y ACCESO:
-     * TEEHO TE001 (<$45, solo código PIN + llaves), TEEHO TE002 (<$60, huella 0.3s + código PIN + llaves) y TEEHO TE002H (con manillón completo para puerta principal): funcionan SIN internet ni app remota, y permiten crear códigos temporales de 1 solo uso directamente en el teclado.
+     * TEEHO TE001, TEEHO TE002 y TEEHO TE002H (con manillón completo para puerta principal): funcionan SIN internet ni app remota, y permiten crear códigos temporales de 1 solo uso directamente en el teclado.
      * TEEHO con App Bluetooth (ej. TE011/TE004) requiere añadir un Puente Gateway Wi-Fi G2 enchufado a 3-5 m para abrir o crear códigos a distancia.
      * eufy Security C210 (código + Wi-Fi integrado) y eufy C220 (huella + código + Wi-Fi integrado, sin suscripción mensual): permiten crear códigos temporales por fecha/hora y abrir desde el celular desde otra ciudad SIN accesorios extra.
      * eufy Video Smart Lock E330 / S330: 3-en-1 (cámara 2K + timbre + huella) e incluye su Chime Wi-Fi en la caja.
